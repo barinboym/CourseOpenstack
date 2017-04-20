@@ -26,7 +26,7 @@ class BookController(object):
 
     # HTTP PUT /<id>/
     @index.when(method='PUT', template='json')
-    def index_PUT(self, **kw):
+    def index_PT(self, **kw):
         BOOKS[self.id_] = kw['name']
         return self.book
 
