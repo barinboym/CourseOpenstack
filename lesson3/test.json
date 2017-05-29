@@ -1,0 +1,7 @@
+{
+  "instanceID": "123123123",
+  "instanceName": "TestInstance",
+  "ram": 1024,
+  "flavor": "m1.tiny",
+  "cpu": 4
+}
